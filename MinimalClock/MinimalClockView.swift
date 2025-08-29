@@ -10,14 +10,14 @@ final class MinimalClockView: ScreenSaverView {
 	private let hoursView: View = {
 		let view = View()
 		view.translatesAutoresizingMaskIntoConstraints = false
-		view.detailLabel.stringValue = "HOURS"
+		view.detailLabel.stringValue = "ЧАСЫ"
 		return view
 	}()
 
 	private let minutesView: View = {
 		let view = View()
 		view.translatesAutoresizingMaskIntoConstraints = false
-		view.detailLabel.stringValue = "MINUTES"
+		view.detailLabel.stringValue = "МИНУТЫ"
 		return view
 	}()
 
